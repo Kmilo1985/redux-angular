@@ -1,7 +1,7 @@
 
 <div class="row text-center">
   <div class="col">
-    <h1>Contador {{ contador }}</h1>
+    <h1>Contador {{contador}}</h1>
     <button (click)="incrementar()" style="margin: 23px;" type="button" class="btn btn-primary">Incrementar</button>
     <!-- <button type="button" class="btn btn-secondary">Secondary</button> -->
     <button (click)="decrementar()"  style="margin: 23px;" type="button" class="btn btn-success">Decrementar</button>
@@ -12,6 +12,6 @@
 <hr>
 <div class="row text-center">
   <div class="col">
-    <app-hijo [contador]="contador" (cambioContador)="contador = $event"></app-hijo>
+    <app-hijo></app-hijo>
   </div>
 </div>
